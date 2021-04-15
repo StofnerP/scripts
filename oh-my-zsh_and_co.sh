@@ -21,6 +21,6 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zs
 sed -i 's@plugins=(git)@plugins=(git wd zsh-autosuggestions zsh-completions zsh-syntax-highlighting)@g' ~/.zshrc
 
 # add some aliases
-echo -e "alias x="\'"exit"\'"\nalias c="\'"clear"\'"\nalias v="\'"vim"\'"\nalias rmf="\'"rm -rf"\'"\nalias ip="\'"ip -c"\'"\nalias py3="\'"python3"\'"\nalias count="\'"ls | wc -l"\' >> .zshrc
+echo -e "alias x="\'"exit"\'"\nalias c="\'"clear"\'"\nalias v="\'"vim"\'"\nalias rmf="\'"rm -rf"\'"\nalias ip="\'"ip -c"\'"\nalias py3="\'"python3"\'"\nalias count="\'"ls | wc -l"\' >> ~/.zshrc
 
 echo "Finished"
