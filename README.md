@@ -1,7 +1,7 @@
 # Random scripts
 
 ## deleteScreenshots.sh
-Cronjob script that deletes screenshots on my desktop every hour
+Cronjob script that deletes screenshots on my desktop every 4 hours
 
 ## fsUsageTracker.sh
 Cronjob script that tracks the available space on my disk every day
